@@ -11,6 +11,7 @@ namespace MAUILite.ViewModels
 	public class ProductoViewModel
 	{
 		public ObservableCollection<Producto> ListaProductos { get; set; }
+
 		public ProductoViewModel()
 		{
 			ListaProductos = new ObservableCollection<Producto>(App.ProductoRepository.GetAll());

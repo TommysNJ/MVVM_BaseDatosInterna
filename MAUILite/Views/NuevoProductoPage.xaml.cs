@@ -10,8 +10,4 @@ public partial class NuevoProductoPage : ContentPage
         BindingContext = new NuevoProductoViewModel();
     }
 
-    /*private async void OnClickVolver(object sender, EventArgs e)
-    {
-        await Navigation.PopModalAsync();
-    }*/
 }

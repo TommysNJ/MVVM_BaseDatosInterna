@@ -27,5 +27,4 @@ public partial class ProductoPage : ContentPage
         await Navigation.PushAsync(new DetalleProductoPage(producto));
     }
 
-
 }
